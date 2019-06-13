@@ -1,0 +1,201 @@
+Script started on 2018-11-13 10:30:17-0800
+]0;aroth@blue:~/cs215f18/Project2[aroth@blue Project2]$ ./P2.out
+
+Welcome to the all new Computer Video Game of Othello!
+
+You are embarking on an adventure into the future of strategic recreation and ground-breaking technology. 
+The game of Othello is played on a square board, typically 8 by 8.
+In this version you will be playing against our state-of-the-art Artificial Intelligence.
+The objective of the game is to control the majority of the spaces by the time the board is completely filled up,
+or there are no more available moves for either player. Each player takes turns trying to flip their opponents spaces.
+They do this by flanking opposing squares, meaning placing their token next to their opponents while they 
+own another square on the directly opposite side.
+Spaces can be flipped both horizontally and diagonally and are not limited by the number of spaces that lie in between the flanking tokens.
+The game starts with two 'X's two 'O's near the center of the board. Have fun and good luck!
+
+My Game!
+Scores	HUMAN: 2	COMPUTER: 2
+      A   B   C   D 
+    +---+---+---+---+
+  1 |   |   |   |   | 1
+    +---+---+---+---+
+  2 |   | O | X |   | 2
+    +---+---+---+---+
+  3 |   | X | O |   | 3
+    +---+---+---+---+
+  4 |   |   |   |   | 4
+    +---+---+---+---+
+      A   B   C   D 
+Enter your move (column row): b1
+Col: 2	Row: 1
+My Game!
+Scores	HUMAN: 4	COMPUTER: 1
+      A   B   C   D 
+    +---+---+---+---+
+  1 |   | X |   |   | 1
+    +---+---+---+---+
+  2 |   | X | X |   | 2
+    +---+---+---+---+
+  3 |   | X | O |   | 3
+    +---+---+---+---+
+  4 |   |   |   |   | 4
+    +---+---+---+---+
+      A   B   C   D 
+My Game!
+Scores	HUMAN: 3	COMPUTER: 3
+      A   B   C   D 
+    +---+---+---+---+
+  1 |   | X |   |   | 1
+    +---+---+---+---+
+  2 |   | X | X |   | 2
+    +---+---+---+---+
+  3 | O | O | O |   | 3
+    +---+---+---+---+
+  4 |   |   |   |   | 4
+    +---+---+---+---+
+      A   B   C   D 
+Enter your move (column row): a4
+Col: 1	Row: 4
+My Game!
+Scores	HUMAN: 5	COMPUTER: 2
+      A   B   C   D 
+    +---+---+---+---+
+  1 |   | X |   |   | 1
+    +---+---+---+---+
+  2 |   | X | X |   | 2
+    +---+---+---+---+
+  3 | O | X | O |   | 3
+    +---+---+---+---+
+  4 | X |   |   |   | 4
+    +---+---+---+---+
+      A   B   C   D 
+My Game!
+Scores	HUMAN: 3	COMPUTER: 5
+      A   B   C   D 
+    +---+---+---+---+
+  1 |   | X | O |   | 1
+    +---+---+---+---+
+  2 |   | O | O |   | 2
+    +---+---+---+---+
+  3 | O | X | O |   | 3
+    +---+---+---+---+
+  4 | X |   |   |   | 4
+    +---+---+---+---+
+      A   B   C   D 
+Enter your move (column row): d1
+Col: 4	Row: 1
+My Game!
+Scores	HUMAN: 6	COMPUTER: 3
+      A   B   C   D 
+    +---+---+---+---+
+  1 |   | X | X | X | 1
+    +---+---+---+---+
+  2 |   | O | X |   | 2
+    +---+---+---+---+
+  3 | O | X | O |   | 3
+    +---+---+---+---+
+  4 | X |   |   |   | 4
+    +---+---+---+---+
+      A   B   C   D 
+My Game!
+Scores	HUMAN: 5	COMPUTER: 5
+      A   B   C   D 
+    +---+---+---+---+
+  1 |   | X | X | X | 1
+    +---+---+---+---+
+  2 |   | O | O | O | 2
+    +---+---+---+---+
+  3 | O | X | O |   | 3
+    +---+---+---+---+
+  4 | X |   |   |   | 4
+    +---+---+---+---+
+      A   B   C   D 
+Enter your move (column row): d3
+Col: 4	Row: 3
+My Game!
+Scores	HUMAN: 9	COMPUTER: 2
+      A   B   C   D 
+    +---+---+---+---+
+  1 |   | X | X | X | 1
+    +---+---+---+---+
+  2 |   | O | X | X | 2
+    +---+---+---+---+
+  3 | O | X | X | X | 3
+    +---+---+---+---+
+  4 | X |   |   |   | 4
+    +---+---+---+---+
+      A   B   C   D 
+My Game!
+Scores	HUMAN: 8	COMPUTER: 4
+      A   B   C   D 
+    +---+---+---+---+
+  1 |   | X | X | X | 1
+    +---+---+---+---+
+  2 |   | O | X | X | 2
+    +---+---+---+---+
+  3 | O | X | O | X | 3
+    +---+---+---+---+
+  4 | X |   |   | O | 4
+    +---+---+---+---+
+      A   B   C   D 
+Enter your move (column row): c4
+Col: 3	Row: 4
+My Game!
+Scores	HUMAN: 10	COMPUTER: 3
+      A   B   C   D 
+    +---+---+---+---+
+  1 |   | X | X | X | 1
+    +---+---+---+---+
+  2 |   | O | X | X | 2
+    +---+---+---+---+
+  3 | O | X | X | X | 3
+    +---+---+---+---+
+  4 | X |   | X | O | 4
+    +---+---+---+---+
+      A   B   C   D 
+My Game!
+Scores	HUMAN: 8	COMPUTER: 6
+      A   B   C   D 
+    +---+---+---+---+
+  1 |   | X | X | X | 1
+    +---+---+---+---+
+  2 |   | O | X | X | 2
+    +---+---+---+---+
+  3 | O | O | X | X | 3
+    +---+---+---+---+
+  4 | X | O | O | O | 4
+    +---+---+---+---+
+      A   B   C   D 
+Enter your move (column row): a2
+Col: 1	Row: 2
+My Game!
+Scores	HUMAN: 11	COMPUTER: 4
+      A   B   C   D 
+    +---+---+---+---+
+  1 |   | X | X | X | 1
+    +---+---+---+---+
+  2 | X | X | X | X | 2
+    +---+---+---+---+
+  3 | X | O | X | X | 3
+    +---+---+---+---+
+  4 | X | O | O | O | 4
+    +---+---+---+---+
+      A   B   C   D 
+My Game!
+Scores	HUMAN: 9	COMPUTER: 7
+      A   B   C   D 
+    +---+---+---+---+
+  1 | O | X | X | X | 1
+    +---+---+---+---+
+  2 | X | O | X | X | 2
+    +---+---+---+---+
+  3 | X | O | O | X | 3
+    +---+---+---+---+
+  4 | X | O | O | O | 4
+    +---+---+---+---+
+      A   B   C   D 
+GameOver! 
+Congratulations! You are the winner
+]0;aroth@blue:~/cs215f18/Project2[aroth@blue Project2]$ exit
+
+Script done on 2018-11-13 10:35:22-0800
